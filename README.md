@@ -8,13 +8,9 @@ The core idea of the software is to let you create your own website, online shop
 The most important thing you need to know is that decentHost pairs the latest Drag & Drop technology, with a revolutionary Real-Time Text Writing & Editing feature. This pair of features delivers an improved user experience, easier and quicker content management, a visually appealing environment, and flexibility.
 
 #### Drag & Drop
-
 #### Real Time Text Editing
-
 #### Powerful Admin Panel
-
 #### E-commerce Solution
-
 ## Requirements  
 
 * HTTP server  
@@ -50,6 +46,8 @@ However, you can connect to more storage services (like [MongoDB](https://github
 On the installation screen you can only choose from databases enabled in your PHP configuration.
 If you don't see your server of choice in the list you have to enable the corresponding [PDO](http://php.net/manual/en/book.pdo.php) extension for your database server. [An example for Microsoft SQL Server](http://php.net/manual/en/mssql.installation.php). PHP usually comes with PDO enabled by default but you might have to uncomment or add `extension` directives to your `php.ini`.
 
+
+
 ## Installation  
 
 ### Via Composer
@@ -69,23 +67,3 @@ Make sure these folders, and everything inside, is writeable by the user executi
 * config/
 * storage/
 * userfiles/
-
-## Getting Started  
-
-## Contribute
-
-We are looking for people who want to help us improve decentHost.
-
-If you are a developer, submitting fixes is easy. Just fork the decentHost repository, make your changes, submit a pull request, and be sure all tests are passing.
-
-## Build Status
-
-## Contributors
-
-### Code Contributors
-
-### Financial Contributors
-
-#### Individuals
-
-#### Organizations
